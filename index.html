@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-cart">
+        <div class="cart">
+            <h2 class="heading">Get your Exam Center City...</h2>
+            <p class="des">This is simple javascript app , through which you can get your exam center city name just
+                after entering your registered <strong> name </strong> and <strong> email-id </strong>.</p>
+
+            <div class="flex">
+                <input type="text" placeholder="Enter your name" id="name">
+                <input type="text" placeholder="Enter your email-id" id="email">
+            </div>
+
+
+            <button class="btn" onclick="add()">!! Submit !!</button>
+            <div class="alert" id="alert-danger">User already exist !!</div>
+            <div class="alert" id="alert-success">User Added !!</div>
+        </div>
+
+        <div class="users" id="users">
+            <div class="user">
+                <p class="name">Dummy-Name</p>
+                <p class="email">Dummy-Email</p>
+                <p class="city" id="city">Dummy-City</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
